@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Memory Game</string>
-    <string-array name="level">
-        <item>EASY</item>
-        <item>MEDIUM</item>
-        <item>HARD</item>
-    </string-array>
-</resources>
