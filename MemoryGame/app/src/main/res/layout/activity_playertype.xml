@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".playertype"
+    android:padding="16dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Memory Game"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:background="#000000"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/selectplayertype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT PLAYER TYPE"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/singleplayer"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/singleplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="SINGLE PLAYER"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/multiplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MULTI PLAYER"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/singleplayer"/>
+
+</RelativeLayout>
